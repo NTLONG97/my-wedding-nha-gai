@@ -5,8 +5,9 @@ out
 npm-debug.log*
 .env*
 
-# Không cần cho web (ảnh gốc, logo, file tạm)
-Images/
-Logo/
-Claude outputs/
-*.mp4
+# Không cần cho web (ảnh gốc, logo, file tạm) — dấu / đầu dòng = CHỈ thư mục ở gốc dự án
+# (Windows không phân biệt hoa/thường nên 'Images/' sẽ chặn nhầm cả public/images)
+/Images/
+/Logo/
+/Claude outputs/
+/*.mp4
