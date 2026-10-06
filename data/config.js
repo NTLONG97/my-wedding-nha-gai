@@ -55,10 +55,9 @@ const config = {
     title: "Tư Gia Nhà Gái",
     address: "Xóm Xuân Thới, Thôn Xuân An, Xã Đông Sơn, TP. Quảng Ngãi",
     note: "", // ghi chú thêm (vd: gần chợ, gần trường...). Để trống thì không hiện.
-    // Nút "Xem chỉ đường": hiện tìm theo địa chỉ. Muốn ghim đúng nhà: thay bằng toạ độ, vd
-    //   "https://www.google.com/maps/search/?api=1&query=15.12345%2C108.12345"
-    mapEmbedUrl: "https://www.google.com/maps?q=X%C3%B3m%20Xu%C3%A2n%20Th%E1%BB%9Bi%2C%20Th%C3%B4n%20Xu%C3%A2n%20An%2C%20X%C3%A3%20%C4%90%C3%B4ng%20S%C6%A1n%2C%20TP.%20Qu%E1%BA%A3ng%20Ng%C3%A3i&output=embed",
-    mapLink: "https://www.google.com/maps/search/?api=1&query=X%C3%B3m%20Xu%C3%A2n%20Th%E1%BB%9Bi%2C%20Th%C3%B4n%20Xu%C3%A2n%20An%2C%20X%C3%A3%20%C4%90%C3%B4ng%20S%C6%A1n%2C%20TP.%20Qu%E1%BA%A3ng%20Ng%C3%A3i",
+    // Ghim đúng nhà gái theo toạ độ 15°13'18.1"N 108°53'44.6"E = 15.221694, 108.895722
+    mapEmbedUrl: "https://www.google.com/maps?q=15.221694,108.895722&z=17&output=embed",
+    mapLink: "https://www.google.com/maps/search/?api=1&query=15.221694%2C108.895722",
   },
 
   // ---------- Nhạc nền ----------
