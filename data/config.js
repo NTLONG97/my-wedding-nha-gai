@@ -47,7 +47,7 @@ const config = {
     year: 2026,
     hashtag: "Trang & Long",
     invitation:
-      "Trân trọng kính mời bạn đến chung vui trong Lễ Vu Quy của chúng mình",
+      "Trân trọng kính mời bạn đến chung vui trong ngày hạnh phúc của chúng mình",
   },
 
   // ---------- Địa điểm ----------
@@ -56,8 +56,10 @@ const config = {
     address: "Xóm Xuân Thới, Thôn Xuân An, Xã Đông Sơn, TP. Quảng Ngãi",
     note: "", // ghi chú thêm (vd: gần chợ, gần trường...). Để trống thì không hiện.
     // Ghim đúng nhà gái theo toạ độ 15°13'18.1"N 108°53'44.6"E = 15.221694, 108.895722
-    mapEmbedUrl: "https://www.google.com/maps?q=15.221694,108.895722&z=17&output=embed",
-    mapLink: "https://www.google.com/maps/search/?api=1&query=15.221694%2C108.895722",
+    mapEmbedUrl:
+      "https://www.google.com/maps?q=15.221694,108.895722&z=17&output=embed",
+    mapLink:
+      "https://www.google.com/maps/search/?api=1&query=15.221694%2C108.895722",
   },
 
   // ---------- Nhạc nền ----------
